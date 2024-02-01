@@ -1,0 +1,24 @@
+repository:
+  #SQLITE or MYSQL
+  type: "SQLITE"
+  #If you have selected MYSQL, configure the connection data here
+  host: "127.0.0.1:3306"
+  database: "your_database"
+  username: "your_username"
+  password: "your_password"
+
+ranks:
+  0:
+    name: "&8[#0]"
+    priority: 0
+    priceToUpgrade: 0.0
+    upgradeCommands: []
+
+  1:
+    name: "&8[#1]"
+    priority: 1
+    priceToUpgrade: 1000.0
+    upgradeCommands: [
+      "say <player> is now rank <rank> and has received a gift!",
+      "coins add <player> 1000.0"
+    ]

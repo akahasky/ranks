@@ -1,0 +1,4 @@
+name: Ranks
+main: com.github.akahasky.ranks.RanksPlugin
+version: 1.0.0
+depend: ["Vault"]
